@@ -47,7 +47,7 @@ return [
 
     // 'logo' => '<b>Spritual</b> Journey',
     'logo' => ' | ',
-    'logo_img' =>  asset('images/sjlogo.png') ,
+    // 'logo_img' =>  asset('images/sjlogo.png') ,
     // 'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_class' => 'brand-image elevation-3',
     'logo_img_xl' => null,
@@ -286,11 +286,11 @@ return [
             'submenu' => [
                 [
                     'text' => 'All Users',
-                    'url'  => 'user/duty',
+                    'url'  => 'user/',
                 ],
                 [
                     'text'    => 'Add New',
-                    'url'     => 'user/duty/create',
+                    'url'     => 'user/',
                     // 'submenu' => [
                     //     [
                     //         'text' => 'level_two',
